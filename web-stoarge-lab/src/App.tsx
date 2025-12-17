@@ -1,12 +1,12 @@
-//import { useState } from 'react'
+//import React from 'react'
 import './App.css'
+import ThemeToggle from './component/themeToggle'
 
 function App() {
-//  const [count, setCount] = useState(0)
-
   return (
     <>
       <h1>Web storage -lab</h1>
+      <ThemeToggle/>
     </>
   )
 }
